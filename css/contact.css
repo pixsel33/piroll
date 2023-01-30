@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1200px;
+	margin-left: 30px;
+	margin-right: 0;
+}
+.contact{
+	height: 100px;
+	background-color: white;
+}
+.contact_box{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+.contact_menu a{
+		text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+	border-radius: 5px;
+	color: black;
+	border:solid 3px transparent;
+	transition: 0.4s;
+	padding: 8px 12px;
+}
+.contact_menu a:hover{
+	color: #10c9c3;
+	border:solid 3px transparent;
+}
+.need{
+	height: 560px;
+	background-color: #eee;
+}
+.need_box{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.inputs1{
+	margin-left: 30px;
+	width: 355px;
+	height: 50px;
+	outline: none;
+	border: solid 3px transparent;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+
+}
+.inputs2{
+
+	width: 355px;
+	height: 50px;
+	outline: none;
+	border: solid 3px transparent;
+	background-color: #fff;
+	border-radius: 5px;
+
+}
+.inputs3{
+	margin-left: 30px;
+	margin-top: 25px;
+	width: 710px;
+	height: 50px;
+	outline: none;
+	border: solid 3px transparent;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.inputs4{
+	margin-left: 30px;
+	padding-bottom: 120px;
+	margin-top: 25px;
+	width: 710px;
+	height: 170px;
+	color: #787878;
+	outline: none;
+	border: solid 3px transparent;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.need_btn{
+	margin-left: 440px;
+	margin-top: 30px;
+	height: 55px;
+	width: 180px;
+	text-transform: uppercase;
+	outline: none;
+	border-radius: 5px;
+	border: solid 3px transparent;
+	color: #fff;
+	transition: 0.5s;
+	background-color: #10c9c3;
+}
+.need_btn:hover{
+	color: #10c9c3;
+	background-color: #fff;
+	border: solid 3px #10c9c3; 
+}
+.need_info{
+  font-size: 30px;
+  line-height: 84px;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+}
+.need_text{
+	color: #787878;
+}
+.need_adres{
+	padding-top: 20px;
+}
+.need_nomer{
+	padding-top: 20px;
+}
+.need_email{
+	padding-top: 20px;
+}
+.nomer{
+	padding-top: 20px;
+}
+.span_n{
+	 font-family: 'Montserrat', sans-serif;
+	 text-transform: capitalize;
+}
+.span_m{
+	padding-left: 10px;
+}
+.map{
+	height: 600px;
+	background-color: #eee;
+}
+.mapouter{
+	padding-top: 50px;
+	padding-left: 120px;
+}
+.contacts{
+	height: 285px;
+	background-image: url(../img/bg.png);
+	text-transform: capitalize;
+}
+
+.contacts_box{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+	color: #898989;
+}
+.span2{
+	color: white;
+}
+.span{
+	padding-top: 20px;
+}
